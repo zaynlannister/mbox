@@ -1,5 +1,5 @@
 body {
-	font-family: 'Mulish';
+	font-family: 'Mulish', Arial;
 	margin: 0;
 	padding: 0;
 	background-color: #000;
@@ -153,6 +153,10 @@ a {
 .second {
 	margin-top: 55px;
 	margin-bottom: 55px;
+}
+
+.second .cont, .third .cont {
+	overflow: hidden;
 }
 
 .second-name {
